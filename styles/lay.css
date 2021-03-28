@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #566c2b;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    font-style: oblique;
+}
+
+header ul {
+    list-style: none;
+    display: flex; 
+    padding: 0 ; 
+    margin: 0;
+}
+
+header a {
+    color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.links li {
+    padding: 10px; 
+}
+
+.main {
+    display: flex;
+}
+
+aside{
+    width: 80%;
+    background-color: beige;
+    padding: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul a {
+            color: #566c2b;
+            padding: 10px;
+            display: block;
+            border-bottom:  1px solid grey;
+        
+}
+
+aside img {
+    width: 100%;
+}
+
+article {
+padding: 10px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    font: status-bar;
+}
+
+.service-box {
+    border: 1px solid #eee;
+    max-width: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    font: status-bar;
+}
+
+.service-box h3 {
+    margin: 5px 0 10px;
+}
+
+.service-box p {
+    margin: 0 0 10px;
+    
+}
+
+.service-box img {
+    width: 100%;
+}
+
+.call-action{
+    align-self: flex-start;
+    margin-top: auto;
+    font-style: oblique;
+}
+.call-action  a{
+    background: grey;
+    color: #fff;
+    padding: 8px   13px;
+    display: block;
+}
+
+.call-action a:hover {
+    color: grey;
+    background: transparent;
+    border: 2px solid grey;
+    
+}
+
+footer {
+        background: #566c2b;
+        text-align: center;
+        color: #eee;
+        padding:  15px 0;
+        font-size: 20px;
+        margin-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+}
