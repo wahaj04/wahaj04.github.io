@@ -7,6 +7,7 @@ h1 {
     color: #222222;
     font: 63px Roboto, sans-serif;
     font-weight: 900;
+    color: white;
 
 }
 
@@ -38,7 +39,8 @@ h4{
   }
 
 h3 {
-    padding-left: 30px
+    padding-left: 30px;
+    color: white
 }
 
 .head-img{
@@ -55,15 +57,16 @@ h3 {
     position: relative;
     text-align: center;
     color: white;
+    width: 35%;
 }
 
 .img-text {
     position: absolute;
-    top: 91%;
+    top: 90%;
     left: 49%;
     transform: translate(-50%, -50%); 
     font-weight: 900;
-    font-size: 40px;
+    font-size: 3em;
     
 
 }
@@ -75,7 +78,7 @@ h3 {
     transform: translate(-50%, -50%); 
     font-weight: bold;
     color: #00c483;
-    font-size: 20px;
+    font-size: 2em ;
     /* background-color: #222222; */
 }
 
@@ -88,6 +91,7 @@ h5 {
     font: 16px Roboto, sans-serif;
     font-weight: bold;
     margin: 10px 0px 7.5px;
+    color: white;
 }
 
 .para{
