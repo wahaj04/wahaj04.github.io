@@ -6,24 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Assignment</title>
+    <link rel="stylesheet" href="./styles/Resume.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
     <table>
         <tr>
-            <td>
-                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bWVufGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
+            <td class="container">
+                <img class="head-img"
+                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bWVufGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
                     alt="niko_img">
-                    <h2>Jose Niko</h2>
-                <span>Developer</span>
+                <span class="img-text">Jose Niko</span>
+                <span class="name-center">Developer</span>
             </td>
 
             <td>
                 <h1 class="entry-title">about me</h1>
-                28 years
-                Lviv
-                Freelance
-                <p>
+                <div class="about-item">
+                    28 years 
+                    /
+                    Lviv
+                    /
+                    Freelance
+                </div>
+                <p class="para-1">
                     Prolific, full stack web developer with a passion for metrics and beating former "best-yets."
                     Prototyped 25 new product features per year for Flexor, Inc. Decreased rework by 22% and costs by
                     15%. Consistently receive high user experience scores for all web development projects, including a
@@ -31,28 +40,33 @@
                     sites received a 2015 Webby for Best Navigation and Structure. </p>
                 <hr />
 
-                <table>
+                <table class="nested-table">
 
-                    <h3>My services</h3>
+                    <h3>my services</h3>
 
-                    <td>
-                        <h5>development</h5>
-                        <p>Building a custom tailored solution based on your technical specification.</p>
+            <td>
+                 <i id= "One"  class="fas fa-desktop"></i>
+                <h5>development</h5>
+                <p class="para">Building a custom tailored solution based on your technical specification.</p>
 
-                        <h5>SEO optimization</h5>
-                        <p>Audit your website, perform technical improvements and write meta tags</p>
-                    </td>
-
-                    <td>
-                        <h5>Data base</h5>
-                        <p>SSL certificate installation and configuration, redirection configuration on your website</p>
-
-                        <h5>Data security</h5>
-                        <p>Strategy with leading data protection technology to safeguard your critical data.</p>
-                    </td>
-                </table>
+                <br /><i id="One" class="fal fa-rocket"></i>
+                <h5>SEO optimization</h5>
+                <p class="para">Audit your website, perform technical improvements and write meta tags</p>
             </td>
-        </tr>
+
+            <td>
+                <i id= "One" class="far fa-layer-group"></i>
+                <h5>Data base</h5>
+                <p class="para">SSL certificate installation and configuration, redirection configuration on your
+                    website</p>
+
+                <br /><i id= "One"  class="fal fa-shield-check"></i>   
+                <h5>Data security</h5>
+                <p class="para">Strategy with leading data protection technology to safeguard your critical data.</p>
+            </td>
+    </table>
+    </td>
+    </tr>
     </table>
 </body>
 
