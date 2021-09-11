@@ -56,9 +56,11 @@ h2 {
     color: white;
     font-family: monospace;
     font-size: 20px;
-    border-radius: 10%;
+    border-radius: 10%; 
+    cursor: pointer;  
     border: none;
-       
+    opacity: 0.9;
+
 } */
 
 
@@ -68,6 +70,10 @@ input {
     margin-top: 10px;
     outline: none;
 }
+
+/* button:hover {
+    opacity: 1;
+} */
 
 button {
     padding: 15px 25px;
@@ -83,9 +89,9 @@ button {
     margin-left: 10vw;
   }
 
-  button:hover {background-color: #f25f5c}
+  button:hover {background-color: #5caef2}
   button:active {
-    background-color: #1877f2;
+    background-color: #347bd6;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }

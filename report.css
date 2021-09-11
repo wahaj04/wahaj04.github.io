@@ -1,0 +1,64 @@
+body{
+    width: 99vw;
+    border: 2px solid black; 
+    position: absolute;
+    height: 98vh;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.main_cont {
+    margin-left: 15px;
+}
+
+h2 {
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    background: white;
+    padding: 0 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.nav {
+    margin-top: 10vh;
+    margin-left: 10px;
+
+
+}
+
+input {
+    position: absolute;
+    right: 70px;
+    margin-top: 15px;
+    border-style: ridge;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+
+}
+
+hr {
+    opacity: 0.2;
+    color: lightgrey;
+}
+
+.para {
+    margin-left: 4vw;
+}
+
+  #member {
+    /* A reset of styles, including removing the default dropdown arrow */
+   border: none;
+   width: 12%;
+   height: 35px;
+   cursor: pointer;
+   outline: none; 
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 15px;
+ }

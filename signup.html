@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="shortcut icon" href="../teamwork.png">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+ <title>Sign up</title>
+</head>
+
+<body>
+      
+
+    <div class="main-container">
+        <h2>Sign Up</h2>
+        <div class="box">
+            <form action="./login.html"  method="POST">
+
+                <div class="txt_field">
+                    <label>Full Name*</label>
+                    <input type="text" onfocus="this.value=' '" placeholder="Enter Your Name" id="name" required>
+                    <hr>
+                </div>
+
+                <div class="txt_field">
+                    <label>Email*</label>
+                    <input type="email" placeholder="ipsum@gmail.com" id="email" required>
+                    <hr>
+                </div>
+
+
+                <div class="txt_field">
+                    <label>Password*</label>
+                    <input type="password" placeholder="********" id="password" required>
+                    <hr>
+                </div>
+
+                <p id="signupvalidate" ></p>
+                <div class="bton">
+                    <button id="submitButton" class="btn">Signup</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="./sign.js"></script>
+</body>
+
+</html>

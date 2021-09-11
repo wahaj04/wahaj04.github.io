@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./team.css">
+    <link rel="shortcut icon" href="../teamwork.png">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <title>Teams lead</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>Teams</h2>
+            <button onclick="logout" id="logoutButton" class="logout" >LogOut</button>
+        <h3 class="name">Teams you own</h3>
+        <div class="txt_field">
+            <h3>Developers</h3>
+            <p> <b>Members:</b> Haris, Arshad & 1 other</p>
+        </div>
+        <div class="txt_field">
+            <h3>Maintenance Team</h3>
+            <p> <b>Members:</b> Haris, Faizan & 10 others</p>
+        </div>
+
+        <h3 class="name">Teams you're part of</h3>
+        <div class="txt_field">
+            <h3>Leads</h3>
+            <p> <b>Members:</b> You, Rehman & 7 others</p>
+        </div>
+
+        <div class="txt_field">
+            <h3>Architects</h3>
+            <p> <b>Members:</b> You, Anas & 5 others</p>
+        </div>
+
+        <div class="btn">
+            <a href="./create.html" target="blank">
+                <button class="buton">
+                    <ion-icon name="add-outline"></ion-icon>
+                    <!-- <ion-icon name="heart"></ion-icon> -->
+                </button>
+            </a>
+        </div>
+    </div>
+
+   
+</body>
+    <script src="./team.js"></script>
+
+</html>

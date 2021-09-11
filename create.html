@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./create.css">
+    <link rel="shortcut icon" href="../teamwork.png">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <title>Create New Team</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Create new Team</h1>
+        <div class="box">
+            <form action="" method="POST">
+                <div class="txt_field">
+                    <input type="text" placeholder="Team Name" id="teamname">
+                    <hr>
+                </div>
+
+
+                <div class="select" >
+                    <select class="standard-select" id="categoryname">
+                        <option value="Option 1">Category</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                        <option value="Option 5">Option 5</option>
+                        <option value="Option length">Option that has too long of a value to fit</option>
+                    </select>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="txt_field">
+                    <input type="text" placeholder="Members(type email)" id="membersemail">
+                    <hr>
+                </div>
+
+            </form>
+
+
+            <div id="button">
+                <button type="button" class="btn1" id="submitTeam">Create</button>
+                <button type="button" class="btn">Cancel</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+<script src="./create.js"></script>
+
+</html>
