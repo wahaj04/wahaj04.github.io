@@ -22,7 +22,7 @@ document.getElementById("logoutButton").addEventListener("click", function (even
 function logout() {
     firebase.auth().signOut().then(() => {
         // Sign-out successful.
-        window.location.href = "file:///C:/Users/pc/Documents/Team%20Reporter/login.html";
+        window.location.href = "https://wahaj04.github.io/login.html";
     }).catch((error) => {
         // An error happened.
     });
