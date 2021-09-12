@@ -53,6 +53,6 @@ const auth = firebase.auth();
 auth.onAuthStateChanged((user) => {
     if (user) {
         console.log(user);
-//         window.location.href = "https://wahaj04.github.io/team.html";
+        window.location.href = "https://wahaj04.github.io/team.html";
     }
 });
