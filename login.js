@@ -32,7 +32,7 @@ function login() {
             const user = userCredential.user;
             console.log(window)
             if(user) {
-//                 window.location.href = "https://wahaj04.github.io/team.html";
+                window.location.href = "https://wahaj04.github.io/team.html";
             }
             console.log(user);
             // ...
@@ -53,6 +53,6 @@ const auth = firebase.auth();
 auth.onAuthStateChanged((user) => {
     if (user) {
         console.log(user);
-        window.location.href = "https://wahaj04.github.io/team.html";
+//         window.location.href = "https://wahaj04.github.io/team.html";
     }
 });
