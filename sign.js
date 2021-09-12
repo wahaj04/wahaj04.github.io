@@ -33,7 +33,7 @@ function signup() {
                 name: name,
                 email: email,
             })
-            // window.location("file:///C:/Users/pc/Documents/Team%20Reporter/login.html")
+            window.location("https://wahaj04.github.io/team.html")
             // ...
         })
         .catch((error) => {
