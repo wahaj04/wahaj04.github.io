@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signupballoon.css">
+    <!-- <link rel="shortcut icon" href="../teamwork.png"> -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>   
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+    <title>SignUp Balloons Game</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>Sign Up</h2>
+        <div class="box">
+            <form  id="loginForm" method="POST">
+
+                <div class="txt_field">
+                    <label>Full Name*</label>
+                    <input type="text" placeholder="Enter Your Name" id="name" required>
+                    <hr>
+                </div>
+
+                <div class="txt_field">
+                    <label>Email*</label>
+                    <input type="email" placeholder="ipsum@gmail.com" id="email" required>
+                    <hr>
+                </div>
+
+
+                <div class="txt_field">
+                    <label>Password*</label>
+                    <input type="password" placeholder="********" id="password" required>
+                    <hr>
+                </div>
+
+                <p id="signupvalidate"></p>
+                <div class="bton">
+                    <button onclick="signUp()" class="btn">Signup</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./signupballoon.js"></script>
+</body>
+
+</html>
